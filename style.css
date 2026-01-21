@@ -11,8 +11,7 @@ body {
   color: #333;
   scroll-behavior: smooth;
 }
-
-header {
+header-down {
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -24,11 +23,16 @@ header {
   text-align: center;
   padding: 30px 20px;
   animation: fadeIn 2s ease-in;
+  position: relative; important 
+  z-index: 1;
 }
+
+
 
 .navbar {
   background-color: #000;
 }
+
 
 .navbar ul {
   display: flex;
