@@ -3,7 +3,6 @@ html {
   scroll-behavior: smooth;
 }
 /*fin de defilement pendant la selection*/
-
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -143,4 +142,17 @@ li {
 
 .section-content strong {
   color: #333;
+}
+
+footer {
+  background-color: #00695c;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.footer-content p {
+  margin: 2px 0;
 }
